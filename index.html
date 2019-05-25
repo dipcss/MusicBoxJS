@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>MusicAPP</title>
+</head>
+
+<body class="body">
+    <div class="wrapp">
+        <!------------------------------------------------------------------------->
+        <div class="bar_top">
+            <div class="conteiner">
+                <div class="logo">
+                    <h2><i class="material-icons album">album</i>Music<span>BOX</span></h2>
+                </div>
+                <div class="title_item playlist">PlayList</div>
+                <div class="title_item hotlist">HotList</div>
+                <div class="title_item myplaylist">MyPlayList</div>
+            </div>
+        </div>
+        <!--------------------------------------------------------------------------->
+        <div class="nav">
+            <button class="PlayList"><i class="material-icons btn">music_note</i>PlayList</button>
+            <button class="HotList"><i class="material-icons btn">star</i>HotList</button>
+            <button class="MyPlayList"><i class="material-icons btn">library_music</i>MyPlayList</button>
+        </div>
+        <!------------------------------Modal----------------------------------->
+        <div id="modal" class="modal">
+            <div id="modal_box" class="modal_box">
+                <button id="close_modal" class="close_modal">X</button>
+                <img class="modal_img" src="https://picsum.photos/id/121/300/300" alt="">
+                <p class="modal_author">John Doe</p>
+                <h3 class="modal_title">Bla bla title</h3>
+                <button class="addToMyPlaylist">MyPlayList</button>
+            </div>
+        </div>
+        <!----------------------------------------------------------------------->
+        <div id="BoxContainer" class="conteiner">
+            <section class="app">
+                <div class="post">
+                    <img class="picture" src="https://picsum.photos/id/121/300/300" alt="">
+                    <p class="author">John Doe</p>
+                    <h3 class="title">Bla bla title</h3>
+                    <!--<p class="description">Eros in cursus turpis massa tincidunt. At volutpat diam ut venenatis tellus in metus vulputate.</p>-->
+                    <!--<button class="addToMyPlaylist"><i class="material-icons">star</i></button>-->
+                </div>
+            </section>
+
+
+        </div>
+    </div>
+
+    </div>
+    <script src="JS/jquery-2.2.4.min.js"></script>
+    <!--<script src="JS/underscore.js"></script>-->
+    <script type="module" src="JS/PlayList.js"></script>
+
+</body>
+
+</html>
